@@ -7,10 +7,10 @@ import { useEffect } from "react";
 const Home = () => {
   
 
-  const { contract } = useContract("0xACDEC1C5e5c54F39cc0823B8Df33139cEfb7aB19");
+  const { contract } = useContract("0x5A34F8dF70bBa6bbED9e736aa6883Ff2ff324Ed2");
   const { data, isLoading } = useContractRead(contract, "getWinner");
   const clicked= ()=>{
-    console.log(ethers.utils.parseBytes32String(data));
+    console.log(data);
   }
   return (
     <div>
