@@ -1,24 +1,14 @@
-import { ConnectWallet } from "@thirdweb-dev/react";
-import "./styles/Home.css";
-
-export default function Home() {
+import React from 'react'
+import { ConnectWallet, useContract } from '@thirdweb-dev/react'
+import Home from './components/home'
+const App = () => {
+    
   return (
-    <main className="main">
-      <div className="container">
-        <div className="header">
-          
-          <div className="connect">
-            <ConnectWallet
-              dropdownPosition={{
-                side: "bottom",
-                align: "right",
-              }}
-            />
-          </div>
-        </div>
-
-        
-      </div>
-    </main>
-  );
+    <>
+        <Home/>
+    </>
+    
+  )
 }
+
+export default App
