@@ -104,8 +104,8 @@ This repository contains a voting system implemented using Solidity and React. T
     ```
     - For the sepolia network, use the following settings:
 
-        -RPC URL: sepolia.rpc.thirdweb.com
-        -Chain ID: 11155111
+        - RPC URL: sepolia.rpc.thirdweb.com
+        - Chain ID: 11155111
 
 6. Modify `main.jsx` as : 
     ```jsx
