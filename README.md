@@ -139,3 +139,6 @@ This repository contains a voting system implemented using Solidity and React. T
     ```
 
     For more information on setting up the connection, refer to the [ThirdWebProvider documentation](https://portal.thirdweb.com/react/react.thirdwebprovider#usage).
+
+    ##Get Sepolia faucet from here: 
+    [getSepolia](https://sepoliafaucet.com/)
